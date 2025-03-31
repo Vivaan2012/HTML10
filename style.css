@@ -1,0 +1,36 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    color: beige;
+}
+h1{
+    color: red;
+    font-size: xx-large;
+}
+a{
+    color: white;
+}
+a:hover{
+    color: greenyellow;
+}
+ul>li{
+    font-weight: bold;
+}
+h1+p{
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 5px;
+}
+ul li:hover{
+    color: magenta;
+}
+ul li:nth-child(3){
+    background-color: antiquewhite;
+}
+p::first-letter{
+    font-size: 200px;
+    color: orange;
+}
+ul li::before{
+    content: "✈️🛫🛬🛩️🚀";
+}
